@@ -1,3 +1,4 @@
+import holo.holo;
 public class Pruebas_mias{
     public static void hola () {
         String nom1 = "Code";

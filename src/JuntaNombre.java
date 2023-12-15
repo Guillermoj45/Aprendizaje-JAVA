@@ -9,7 +9,7 @@ public class JuntaNombre {
         hola();
         Pruebas_mias.hola();
     }
-    private static void hola(){
+    protected static void hola(){
         System.out.println("soy la clase privada");
     }
 }
