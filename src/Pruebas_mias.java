@@ -1,4 +1,4 @@
-import holo.holo;
+import carpeta.*;
 public class Pruebas_mias{
     public static void hola () {
         String nom1 = "Code";
