@@ -1,5 +1,5 @@
 package utiles;
-
+import java.util.Scanner;
 public class Utilidades {
 //    public static void print (Object texto) {
 //        System.out.println(texto);
@@ -10,5 +10,10 @@ public class Utilidades {
         } else {
             System.out.println(texto);
         }
+    }
+    public static Object input (Object datos_user) {
+        System.out.print(datos_user);
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }
