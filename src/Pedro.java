@@ -10,7 +10,10 @@ public class Pedro {
         print("hola buenas tades %s %s %s", pedro, pedro2, hol);
         int hola = 12;
         int hola1= 11;
-        float hola2 = (float) hola/hola1;
+        Object hola2 = (float) hola/hola1;
+        Object hola12 = "hola buenas tardes";
         print(hola2);
+        String json = (String) input("Escriba aqui lo que quieres que se repita: ");
+        print(json);
     }
 }
