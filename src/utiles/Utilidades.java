@@ -21,6 +21,6 @@ public class Utilidades {
     public static double inputfloat(String datos_user) {
         System.out.print(datos_user);
         Scanner scanner = new Scanner(System.in);
-        return Float.parseFloat(scanner.nextLine());
+        return Double.parseDouble(scanner.nextLine());
     }
 }

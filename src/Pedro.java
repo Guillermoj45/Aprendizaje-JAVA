@@ -16,14 +16,14 @@ public class Pedro {
         int hola21 = Integer.parseInt("22");
         int json =  Integer.parseInt((String) input("Escriba aqui lo que quieres que se repita: "));
         print(json);
-        int json2 = (int) inputfloat("hola buenas tardes: ");
+        float json2 = (float) inputfloat("hola buenas tardes: ");
         print(json2);
-        int b = 0;
-        for(int a = 0; 100000000 >= a; a = a+1)
-        {
-            print("%s", a);
-            b = 99999999 + b;
-            print(b);
-        }
+//        int b = 0;
+//        for(int a = 0; 100000000 >= a; a = a+1)
+//        {
+//            print("%s", a);
+//            b = 99999999 + b;
+//            print(b);
+//        }
     }
 }
